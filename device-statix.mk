@@ -67,3 +67,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ImsServiceEntitlement \
     Iwlan
+
+# Properties
+TARGET_VENDOR_PROP := device/google/raviole/vendor.prop
