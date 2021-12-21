@@ -38,7 +38,7 @@ else
 include device/google/gs101/fingerprint/udfps_factory.mk
 endif
 
-ifeq ($(filter factory_raven, $(TARGET_PRODUCT)),)
+ifeq ($(filter raven, $(TARGET_DEVICE)),)
 include device/google/gs101/uwb/uwb.mk
 include device/google/raviole/uwb/uwb_calibration.mk
 endif
