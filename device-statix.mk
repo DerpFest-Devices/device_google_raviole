@@ -63,6 +63,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.ims.xml \
     frameworks/native/data/etc/android.hardware.telephony.ims.singlereg.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.ims.singlereg.xml
 
+# Powershare
+PRODUCT_PACKAGES += \
+    vendor.lineage.powershare@1.0-service.gs101
+
 # Telephony
 PRODUCT_PACKAGES += \
     ImsServiceEntitlement \
