@@ -72,5 +72,8 @@ PRODUCT_PACKAGES += \
     ImsServiceEntitlement \
     Iwlan
 
+# Parts
+$(call inherit-product-if-exists, vendor/google/pixelparts/pixelparts.mk)
+
 # Properties
 TARGET_VENDOR_PROP := device/google/raviole/vendor.prop
