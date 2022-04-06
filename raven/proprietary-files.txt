@@ -1,4 +1,4 @@
-# Extracted from raven-user 12 SP2A.220305.013.A3 8229987 release-keys
+# Extracted from raven-user 12 SP2A.220405.004 8233519 release-keys
 
 # Ambient music
 product/etc/ambient/matcher_tah.leveldb
@@ -1230,26 +1230,6 @@ vendor/bin/init.uwb.calib.sh
 vendor/etc/calib_paths
 vendor/etc/init/usb-cdc.rc
 vendor/etc/init/uwb-default.rc
-vendor/etc/UWB-calibration-am.conf
-vendor/etc/UWB-calibration-ar.conf
-vendor/etc/UWB-calibration-az.conf
-vendor/etc/UWB-calibration-by.conf
-vendor/etc/UWB-calibration.conf
-vendor/etc/UWB-calibration-default.conf
-vendor/etc/UWB-calibration-id.conf
-vendor/etc/UWB-calibration-jp.conf
-vendor/etc/UWB-calibration-kg.conf
-vendor/etc/UWB-calibration-kz.conf
-vendor/etc/UWB-calibration-np.conf
-vendor/etc/UWB-calibration-pk.conf
-vendor/etc/UWB-calibration-py.conf
-vendor/etc/UWB-calibration-ru.conf
-vendor/etc/UWB-calibration-sb.conf
-vendor/etc/UWB-calibration-tj.conf
-vendor/etc/UWB-calibration-tm.conf
-vendor/etc/UWB-calibration-ua.conf
-vendor/etc/UWB-calibration-unknown.conf
-vendor/etc/UWB-calibration-uz.conf
 -vendor/etc/vintf/manifest/uwb-default.xml
 -vendor/lib/libqorvo_uwb_params_nfcc.so
 -vendor/lib64/hardware.qorvo.uwb-V1-ndk_platform.so
