@@ -4,8 +4,7 @@
     "target_path": "device/google/gs101"
   },
   {
-    "repository": "device/google/raviole-kernel",
-    "target_path": "device/google/raviole-kernel",
-    "remote": "aosp"
+    "repository": "android_device_google_raviole-kernel",
+    "target_path": "device/google/raviole-kernel"
   }
 ]
