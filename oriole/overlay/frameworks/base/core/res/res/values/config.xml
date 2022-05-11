@@ -306,4 +306,8 @@
       <item>2364</item> <!-- sensorLocationY -->
       <item>142</item>  <!-- sensorRadius -->
     </integer-array> 
+    
+  <!-- List of comma separated package names for which we the system will not show crash, ANR,
+         etc. dialogs. -->
+    <string translatable="false" name="config_appsNotReportingCrashes">com.google.android.euicc</string>
 </resources>
