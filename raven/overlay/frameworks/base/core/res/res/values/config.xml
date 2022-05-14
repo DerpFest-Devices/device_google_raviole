@@ -284,4 +284,7 @@
          etc. dialogs. -->
     <string translatable="false" name="config_appsNotReportingCrashes">com.google.android.euicc</string>
     
+    <!-- Whether the device supports wireless charging or not -->
+    <bool name="config_deviceSupportsWirelessCharging">true</bool>
+
 </resources>
