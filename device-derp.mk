@@ -71,6 +71,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.euicc.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/android.hardware.telephony.euicc.xml
 
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+persist.columbus.use_ap_sensor=false
+
 # Telephony
 PRODUCT_PACKAGES += \
     ImsServiceEntitlement \
