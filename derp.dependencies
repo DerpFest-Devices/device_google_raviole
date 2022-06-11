@@ -1,10 +1,14 @@
 [
   {
-    "repository": "android_device_google_gs101",
+    "repository": "HurtCopain/device_google_gs101",
     "target_path": "device/google/gs101"
   },
   {
-    "repository": "android_device_google_raviole-kernel",
-    "target_path": "device/google/raviole-kernel"
-  }
+    "repository": "jacks84/vendor_google_raven",
+    "target_path": "vendor/google/raven"
+  },
+  {
+    "repository": "jacks84/vendor_google_oriole",
+    "target_path": "vendor/google/oriole"
+  },
 ]
