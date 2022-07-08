@@ -26,8 +26,8 @@ PRODUCT_VENDOR_PROPERTIES += \
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=raven \
-    PRIVATE_BUILD_DESC="raven-user 12 SQ3A.220605.009.B1 8650216 release-keys"
+    PRIVATE_BUILD_DESC="raven-user 12 SQ3A.220705.003 8671607 release-keys"
 
-BUILD_FINGERPRINT := google/raven/raven:12/SQ3A.220605.009.B1/8650216:user/release-keys
+BUILD_FINGERPRINT := google/raven/raven:12/SQ3A.220705.003/8671607:user/release-keys
 
 $(call inherit-product, vendor/google/raven/raven-vendor.mk)
