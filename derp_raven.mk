@@ -21,6 +21,9 @@ DERP_BUILDTYPE := Official
 EXTRA_UDFPS_ANIMATIONS := true
 USE_LEGACY_BOOTANIMATION := true
 
+# Enable quick tap
+TARGET_SUPPORTS_QUICK_TAP := true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 6 Pro
