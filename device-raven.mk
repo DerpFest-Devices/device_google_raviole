@@ -298,6 +298,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 # This device is shipped with 31 (Android S)
 PRODUCT_SHIPPING_API_LEVEL := 31
 
+# NowPlayingOverlay
+PRODUCT_PACKAGES += \
+        NowPlayingOverlay
+
 # declare use of spatial audio
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.audio.spatializer_enabled=true
@@ -336,3 +340,4 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.quick_start.oem_id=00e0 \
     ro.quick_start.device_id=raven
+
