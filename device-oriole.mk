@@ -248,6 +248,10 @@ PRODUCT_VENDOR_PROPERTIES += \
 # This device is shipped with 31 (Android S)
 PRODUCT_SHIPPING_API_LEVEL := 31
 
+# NowPlayingOverlay
+PRODUCT_PACKAGES += \
+        NowPlayingOverlay
+
 # declare use of spatial audio
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.audio.spatializer_enabled=true
