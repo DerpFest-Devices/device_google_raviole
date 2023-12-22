@@ -294,6 +294,11 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 PRODUCT_PACKAGES += \
         NowPlayingOverlay
 
+# GoogleCamera
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+PRODUCT_PACKAGES += \
+    GoogleCamera
+
 # declare use of spatial audio
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.audio.spatializer_enabled=true
