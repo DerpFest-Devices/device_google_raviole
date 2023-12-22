@@ -14,7 +14,7 @@ MATRIXX_MAINTAINER := EinarG.
 MATRIXX_CHIPSET := GS101
 MATRIXX_BATTERY := 4614mAh
 MATRIXX_DISPLAY := 1080x2400
-WITH_GAPPS := true
+WITH_GMS := true
 
 # Inherit device configuration
 $(call inherit-product, device/google/raviole/aosp_oriole.mk)
