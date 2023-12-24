@@ -15,6 +15,12 @@ MATRIXX_CHIPSET := GS101
 MATRIXX_BATTERY := 5000mAh
 MATRIXX_DISPLAY := 1440x3120
 WITH_GAPPS := true
+BUILD_GOOGLE_CONTACTS := true
+BUILD_GOOGLE_DIALER := true
+BUILD_GOOGLE_MESSAGE := true
+
+#Device has UDFPS:
+TARGET_HAS_UDFPS := true
 
 # Inherit device configuration
 $(call inherit-product, device/google/raviole/aosp_raven.mk)
