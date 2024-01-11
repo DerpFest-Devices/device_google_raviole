@@ -160,3 +160,6 @@ PRODUCT_PACKAGES += \
     android.hardware.weaver-V2-ndk.vendor:64 \
     android.hardware.wifi-V1-ndk.vendor:64 \
     com.google.hardware.pixel.display-V4-ndk.vendor:64
+
+# PixelParts
+include packages/apps/PixelParts/device.mk
