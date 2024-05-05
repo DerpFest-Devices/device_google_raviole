@@ -12,6 +12,9 @@ IS_PHONE := true
 DERP_BUILDTYPE := Official
 TARGET_SUPPORTS_QUICK_TAP := true
 EXTRA_UDFPS_ICONS := true
+TARGET_IS_PIXEL := true
+TARGET_IS_PIXEL_6 := true
+TARGET_PIXEL_STAND_SUPPORTED := true
 
 # Inherit device configuration
 $(call inherit-product, device/google/raviole/aosp_oriole.mk)
