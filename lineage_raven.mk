@@ -14,6 +14,7 @@ TARGET_SUPPORTS_QUICK_TAP := true
 EXTRA_UDFPS_ICONS := true
 TARGET_IS_PIXEL := true
 TARGET_IS_PIXEL_6 := true
+TARGET_INCLUDE_VIPERFX := true
 
 # Inherit device configuration
 DEVICE_CODENAME := raven
