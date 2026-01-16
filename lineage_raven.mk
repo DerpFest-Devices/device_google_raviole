@@ -6,6 +6,13 @@
 
 # Inherit some common stuff
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+TARGET_GAPPS_ARCH := arm64
+IS_PHONE := true
+DERPFEST_BUILD_TYPE := Official
+TARGET_SUPPORTS_QUICK_TAP := true
+EXTRA_UDFPS_ICONS := true
+TARGET_IS_PIXEL := true
+TARGET_IS_PIXEL_6 := true
 
 # Inherit device configuration
 DEVICE_CODENAME := raven
